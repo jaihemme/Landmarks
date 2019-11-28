@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56312F0239027990083B262 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56312EF239027990083B262 /* CircleImage.swift */; };
 		C5C7F468236F4A630067F606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7F467236F4A630067F606 /* AppDelegate.swift */; };
 		C5C7F46A236F4A630067F606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7F469236F4A630067F606 /* SceneDelegate.swift */; };
 		C5C7F46C236F4A630067F606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7F46B236F4A630067F606 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C56312EF239027990083B262 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C5C7F464236F4A630067F606 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C7F467236F4A630067F606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5C7F469236F4A630067F606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +60,11 @@
 			children = (
 				C5C7F467236F4A630067F606 /* AppDelegate.swift */,
 				C5C7F469236F4A630067F606 /* SceneDelegate.swift */,
-				C5C7F46B236F4A630067F606 /* ContentView.swift */,
 				C5C7F46D236F4A650067F606 /* Assets.xcassets */,
+				C56312EF239027990083B262 /* CircleImage.swift */,
 				C5C7F472236F4A650067F606 /* LaunchScreen.storyboard */,
 				C5C7F475236F4A650067F606 /* Info.plist */,
+				C5C7F46B236F4A630067F606 /* ContentView.swift */,
 				C5C7F46F236F4A650067F606 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C7F468236F4A630067F606 /* AppDelegate.swift in Sources */,
+				C56312F0239027990083B262 /* CircleImage.swift in Sources */,
 				C5C7F46A236F4A630067F606 /* SceneDelegate.swift in Sources */,
 				C5C7F46C236F4A630067F606 /* ContentView.swift in Sources */,
 			);
